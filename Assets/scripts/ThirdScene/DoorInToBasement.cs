@@ -27,7 +27,7 @@ public class DoorInToBasement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            closedDoor.gameObject.SetActive(false);
+            closedDoor.gameObject.SetActive(true);
         }
     }
 
