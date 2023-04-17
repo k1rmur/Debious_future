@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 135
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -393,10 +393,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e42f0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 60fbffff
+      scrollPos: {x: 0, y: 210}
+      m_SelectedIDs: 4afbffff
+      m_LastClickedID: -1206
+      m_ExpandedIDs: 60fbffff5a390000a6390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -456,9 +456,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.3916063, y: 10.801752, z: 95.501816}
+    m_Target: {x: -20.479004, y: 9.067517, z: 41.850388}
     speed: 2
-    m_Value: {x: -7.3916063, y: 10.801752, z: 95.501816}
+    m_Value: {x: -20.479004, y: 9.067517, z: 41.850388}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -504,9 +504,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.13569824, y: 0.24955863, z: -0.03665838, w: -0.95858485}
+    m_Target: {x: -0.071736276, y: 0.79412353, z: -0.09771846, w: -0.5963185}
     speed: 2
-    m_Value: {x: -0.13569824, y: 0.24955861, z: -0.03665838, w: -0.95858485}
+    m_Value: {x: -0.072596125, y: 0.7936098, z: -0.09886472, w: -0.5959354}
   m_Size:
     m_Target: 13.758519
     speed: 2
@@ -585,8 +585,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec3f0000
-    m_LastClickedID: 16364
+    m_SelectedIDs: e23f0000
+    m_LastClickedID: 16354
     m_ExpandedIDs: 00000000643f0000663f0000dc3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -642,7 +642,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
