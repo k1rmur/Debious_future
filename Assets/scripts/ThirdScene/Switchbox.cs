@@ -24,7 +24,7 @@ public class Switchbox : MonoBehaviour
     private static bool flagForCondencator2 = false;
     private static bool flagForAudioListener = false;
     private static bool _swithIsWorked = false;
-    public bool switchWorked => _swithIsWorked;
+    public static bool switchWorked => _swithIsWorked;
 
     void Start()
     {

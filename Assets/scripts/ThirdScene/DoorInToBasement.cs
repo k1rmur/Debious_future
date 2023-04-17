@@ -25,7 +25,7 @@ public class DoorInToBasement : MonoBehaviour
     }
     private void OnMouseOver()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && Switchbox.switchWorked)
         {
             closedDoor.gameObject.SetActive(true);
         }
@@ -34,10 +34,6 @@ public class DoorInToBasement : MonoBehaviour
     private void TransitionOnBasement()
     {
         transition.gameObject.SetActive(true);
-    }
-    private void TransitionOnBasementNotFisrt() 
-    { 
-        
     }
 
     private void Open()

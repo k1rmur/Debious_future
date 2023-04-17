@@ -10,8 +10,8 @@ public class MoveController : MonoBehaviour
     public Animator playerAnim;
     public Rigidbody playerRB;
     public Vector3 rotation;
-    public string sceneName;
-    public static bool BasedRoomPos;
+    private static string sceneName;
+    private string lastsceneName = "0";
     public bool flag = true;
     void Start()
     {
@@ -19,14 +19,30 @@ public class MoveController : MonoBehaviour
         playerAnim = GetComponent<Animator>();
         rotation = transform.eulerAngles;
         Scene scene = SceneManager.GetActiveScene();
+        lastsceneName = sceneName;
         sceneName = SceneManager.GetActiveScene().name;
         print(sceneName);
-        if (BasedRoomPos == true && sceneName == "BasedRoom" &&  flag == true)
+        print(lastsceneName);
+        if (sceneName == "BasedRoom" && flag == true && lastsceneName == "Hallway")
         {
             transform.position = new Vector3(1.1f, 0, 7);
             flag = false;
         }
-        else BasedRoomPos = false;
+        else if (sceneName == "Hallway" && flag == true && lastsceneName == "OperatingRoom")
+        {
+            transform.position = new Vector3(-5.3f, 2.46f, -35);
+            flag = false;
+        }
+        else if (sceneName == "Hallway" && flag == true && lastsceneName == "WC")
+        {
+            transform.position = new Vector3(-5.3f, 2.46f, 20);
+            flag = false;
+        }
+        else if (sceneName == "OperatingRoom" && flag == true && lastsceneName == "Basement")
+        {
+            transform.position = new Vector3(-6.6f, 2.46f, 105);
+            flag = false;
+        }
     }
 
     private void Update()

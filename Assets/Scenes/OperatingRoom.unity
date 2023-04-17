@@ -9253,7 +9253,7 @@ PrefabInstance:
     - target: {fileID: 3850880387190137684, guid: 472eda4c7fef9044098f07d1125affaf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.88
+      value: 18.97
       objectReference: {fileID: 0}
     - target: {fileID: 3850880387190137684, guid: 472eda4c7fef9044098f07d1125affaf,
         type: 3}
@@ -9341,7 +9341,6 @@ MonoBehaviour:
   playerAnim: {fileID: 1895041604}
   playerRB: {fileID: 1895041607}
   rotation: {x: 10, y: 0, z: 0}
-  sceneName: 
   flag: 1
 --- !u!65 &1895041606
 BoxCollider:

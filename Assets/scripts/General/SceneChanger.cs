@@ -10,10 +10,6 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(SceneName);
         ScenesName = SceneName;
-            if (SceneName == "BasedRoom")
-            {
-                MoveController.BasedRoomPos = true;
-            }
     }
 
 
